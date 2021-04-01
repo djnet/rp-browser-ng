@@ -7,6 +7,7 @@ import { ProjectsComponent } from './rp-browser/projects/projects.component';
 import { LaunchesComponent } from './rp-browser/launches/launches.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTableModule} from '@angular/material/table';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import {MatTableModule} from '@angular/material/table';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     NoopAnimationsModule,
     MatTableModule
   ],
